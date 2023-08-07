@@ -8,7 +8,16 @@
   position: relative;
   max-width: 100%;
 }
+#banner2 {
+  display: none;
+} 
+#ab2 {
+  display: none;
 
+}
+#upcoming2 {
+  display: none;
+}
 .banner img {
   width: 100%;
   height: 300px;
@@ -37,7 +46,7 @@
 
 
 
-#upcoming {
+#upcoming1 {
   text-align: center;
   color: aliceblue;
   background-color: #0d0c0c;

@@ -21,6 +21,10 @@
     top: 1rem;
     font-size: 2rem;
   }
+  #ab1 {display: none;}
+  #upcoming1 {
+    display: none;
+  }
   .underbanner h2 {
     position: absolute;
     bottom: 20rem;
