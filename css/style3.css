@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-image: url(/assets/img/design1_image1.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 1px -81px;
+}
+header div {
+    position: absolute;
+   font-size: 40px;
+   
+   background-color: rgba(188, 189, 190, 0.581);
+}
+
+figure {
+    position: absolute;
+    top: 17.5rem;
+    left: 3rem;
+    
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+  display: flex;
+   
+   padding: 20px;
+   color: aliceblue;
+   background-color: rgb(177, 195, 111);
+   text-decoration: none;
+   margin-right: 10px;
+}
