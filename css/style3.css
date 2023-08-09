@@ -1,44 +1,106 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 header {
-    display: flex;
-    justify-content: center;
-    background-image: url(/assets/img/design1_image1.jpg);
-    width: 100%;
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 1px -81px;
+  display: flex;
+  flex-direction: column;
+
+  background-image: url(/assets/img/design1_image1.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 1px -81px;
 }
-header div {
-    position: absolute;
-   font-size: 40px;
-   
-   background-color: rgba(188, 189, 190, 0.581);
+.titulo {
+  order: 1;
+  padding: 0.2rem;
+  font-size: 1.8rem;
+  margin-left: 20rem;
 }
 
-figure {
-    position: absolute;
-    top: 17.5rem;
-    left: 3rem;
-    
-    
+.logo {
+  order: 2;
+  margin-top: 13rem;
+  margin-left: 0.2rem;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 nav a {
+  padding: 18px;
+  color: aliceblue;
+  background-color: rgb(177, 195, 111);
+  text-decoration: none;
+  margin-right: 10px;
+  box-shadow: 5px 6px 2px rgba(115, 123, 84, 0.4);
+}
+#h2logo {
+  padding: 1%;
+}
+#h2game {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1%;
+  margin-left: rem;
+}
+article {
+  padding: 0.5rem;
+}
+.contact1 {
+  padding: 0.3rem;
+  font-size: x-large;
+
+}
+.contact2 {
+  padding: 0.3rem;
+  font-size: x-large;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+}
+.info {
   display: flex;
-   
-   padding: 20px;
-   color: aliceblue;
-   background-color: rgb(177, 195, 111);
-   text-decoration: none;
-   margin-right: 10px;
+  
+  flex-direction: column;
+  
+}
+#info1 {
+  padding: 1%;
+}
+#info2 {
+  padding: 1%; max-width: 40%;
+}
+#info3 {
+  padding: 1%; margin-top: 2%;}
+#info4 {
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 1%;
+  max-width: 39%;
+ 
+}
+.main-list {
+  list-style-type: decimal; 
+  padding-left: 20px;
+}
+
+.sub-list {
+  list-style-type: lower-alpha; /* Establece la numeración en letras minúsculas */
+  margin-top: 5px; /* Agrega un margen arriba para separar la sublista */
+  padding-left: 20px; /* Agrega sangría a la sublista */
+}
+.main-list2 {
+  list-style: none;
+  padding-left: 20px;
 }
