@@ -104,3 +104,17 @@ td {
   list-style: none;
   padding-left: 20px;
 }
+.rules {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  
+}
+#itemrul1 { padding: 1rem;}
+#itemrul2 {margin-left: 3%;}
+#itemrul3 {padding: 1rem;}
+#itemrul4 {padding: 0.5rem ;}
+#itemrul5 {padding: 0.5rem;}
+#itemrul6 {padding: 0.5rem;}
+#itemrul7 {margin-left: 4%;}
+
