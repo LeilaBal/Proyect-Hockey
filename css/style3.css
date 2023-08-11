@@ -4,8 +4,6 @@
   padding: 0;
 }
 
-
-
 header {
   display: flex;
   flex-direction: column;
@@ -25,12 +23,8 @@ header {
   font-family: fantasy;
   font-style: italic;
   color: rgb(177, 195, 111);
-  text-shadow:
-    -1px -1px 0 black,
-    2px -1px 0 black,
-    -1px 1px 0 black,
+  text-shadow: -1px -1px 0 black, 2px -1px 0 black, -1px 1px 0 black,
     2px 2px 0 black;
- 
 }
 
 .logo {
@@ -72,7 +66,6 @@ article {
 .contact1 {
   padding: 0.3rem;
   font-size: x-large;
-
 }
 .contact2 {
   padding: 0.3rem;
@@ -89,34 +82,35 @@ td {
 }
 .info {
   display: flex;
-  
+
   flex-direction: column;
-  
 }
 #info1 {
   padding: 1%;
 }
 #info2 {
-  padding: 1%; max-width: 40%;
+  padding: 1%;
+  max-width: 40%;
 }
 #info3 {
-  padding: 1%; margin-top: 2%;}
+  padding: 1%;
+  margin-top: 2%;
+}
 #info4 {
   display: inline-flex;
   justify-content: space-between;
   padding: 1%;
-  max-width: 39%;
- 
+  max-width: 30%;
 }
 .main-list {
-  list-style-type: decimal; 
+  list-style-type: decimal;
   padding-left: 20px;
 }
 
 .sub-list {
-  list-style-type: lower-alpha; /* Establece la numeración en letras minúsculas */
-  margin-top: 5px; /* Agrega un margen arriba para separar la sublista */
-  padding-left: 20px; /* Agrega sangría a la sublista */
+  list-style-type: lower-alpha; 
+  margin-top: 5px; 
+  padding-left: 20px; 
 }
 .main-list2 {
   list-style: none;
@@ -126,13 +120,25 @@ td {
   display: flex;
   flex-direction: column;
   max-width: 50%;
-  
 }
-#itemrul1 { padding: 1rem;}
-#itemrul2 {margin-left: 3%;}
-#itemrul3 {padding: 1rem;}
-#itemrul4 {padding: 0.5rem ;}
-#itemrul5 {padding: 0.5rem;}
-#itemrul6 {padding: 0.5rem;}
-#itemrul7 {margin-left: 4%;}
-
+#itemrul1 {
+  padding: 1rem;
+}
+#itemrul2 {
+  margin-left: 3%;
+}
+#itemrul3 {
+  padding: 1rem;
+}
+#itemrul4 {
+  padding: 0.5rem;
+}
+#itemrul5 {
+  padding: 0.5rem;
+}
+#itemrul6 {
+  padding: 0.5rem;
+}
+#itemrul7 {
+  margin-left: 4%;
+}
